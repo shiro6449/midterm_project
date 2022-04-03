@@ -20,3 +20,8 @@ The program saves the last 2 states of the board and checks it before each itera
 <img width="641" alt="Снимок экрана 2022-04-02 в 23 22 45" src="https://user-images.githubusercontent.com/102587248/161394148-ced0b64b-f03a-4d37-99ff-c2953c7b0204.png">
 
 All conditions are met for the project
+
+Rules of the game
+
+In an empty (dead) cell, next to which there are exactly three living cells, life is born;
+if a living cell has two or three living neighbors, then this cell continues to live; otherwise, if there are fewer than two or more than three neighbors, the cell dies ("from loneliness" or "from overpopulation")
